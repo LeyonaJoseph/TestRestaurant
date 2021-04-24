@@ -3,6 +3,7 @@ import {SafeAreaView, View, Text, FlatList, ScrollView} from 'react-native';
 import {styles} from '../DetailsScreen/styles';
 
 class DetailsScreen extends React.Component {
+
   render() {
     const data = this.props.route.params.text;
     const Item = ({name, date, rating, review}) => (
